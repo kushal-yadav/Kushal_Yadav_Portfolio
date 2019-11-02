@@ -42,7 +42,7 @@ export default class TrainingCourses extends React.Component {
   render() {
     return (
       <Container id="trainingcourses">
-        <h4 id="projects">Training and Courses</h4>
+        <h4 id="projects" className="m-0 mt-5">Training and Courses</h4>
         <Row>
           {this.state.courseList.map((course) =>
             <Col md={4} sm={6} key={course.cid} className="mt-4">

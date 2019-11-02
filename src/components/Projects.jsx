@@ -84,7 +84,7 @@ export default class Projects extends React.Component {
   render() {
     return (
       <Container>
-        <h4 id="projects">Projects</h4>
+        <h4 id="projects" className="m-0 mt-5">Projects</h4>
         <Row>
           {this.state.projectList.map((project) =>
             <Col md={4} sm={6} key={project.pid} className="mt-4">
