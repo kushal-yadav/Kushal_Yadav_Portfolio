@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import image from '../data/kushalyadav.PNG';
+import image from '../data/kushalyadav.png';
 
 export default class About extends React.Component {
   render() {
