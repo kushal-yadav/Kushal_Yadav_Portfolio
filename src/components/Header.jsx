@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, } from 'react-bootstrap';
-import image from '../data/kushalyadav.png';
 
 export default class Header extends React.Component {
   render() {
@@ -25,7 +24,7 @@ export default class Header extends React.Component {
               <Nav.Link href="#projects">Projects</Nav.Link>
               <Nav.Link href="#trainingcourses">Training</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
-              <Nav.Link href="https://drive.google.com/open?id=182ykAQKzXVsj-I1Y-284GKPXKRT9_S4c" target="_blank">Resume</Nav.Link>
+              <Nav.Link href="https://drive.google.com/open?id=1muFDGi0QfJl4R9cgxuH1d7C8-lwCQdlR" target="_blank">Resume</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

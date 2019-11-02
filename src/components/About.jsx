@@ -1,15 +1,15 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import image from '../data/kushalyadav.png';
+import image from '../data/kushalyadav.PNG';
 
 export default class About extends React.Component {
   render() {
     return (
       <div className="p-3 mb-2 bg-dark text-white">
-        <Row>
-          <Col md={4} className="p-4">
+        <Row >
+          <Col md={4} className="p-3" style={{ height: "250px" }}>
             <img
-              className="p-1 bg-light"
+              className="h-100 p-1 bg-light" style={{ width: "160px" }}
               // className="img-fluid rounded-circle w-30 h-18 p-3"
               // style={{ width: "15rem", height: "15rem" }}
               src={image}
