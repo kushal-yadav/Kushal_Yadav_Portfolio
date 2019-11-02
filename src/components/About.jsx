@@ -9,9 +9,9 @@ export default class About extends React.Component {
         <Row >
           <Col md={4} className="p-3" style={{ height: "250px" }}>
             <img
-              className="h-100 p-1 bg-light" style={{ width: "160px" }}
-              // className="img-fluid rounded-circle w-30 h-18 p-3"
-              // style={{ width: "15rem", height: "15rem" }}
+              // className="h-100 p-1 bg-light" style={{ width: "160px" }}
+              className="img-fluid rounded-circle w-30 h-18 p-3"
+              style={{ width: "15rem", height: "15rem" }}
               src={image}
             />
           </Col>
