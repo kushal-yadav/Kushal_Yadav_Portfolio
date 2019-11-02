@@ -1,0 +1,14 @@
+.card{
+    opacity: 0.8;
+    position: relative;
+}
+
+h4{
+    margin-top: 20px;
+}
+
+#myBtn{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+}
