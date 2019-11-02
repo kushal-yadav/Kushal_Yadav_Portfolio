@@ -8,8 +8,9 @@ export default class Header extends React.Component {
     return (
       <>
         <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top" className="bg-secondary">
-          <Navbar.Brand href="#">
-            About
+          <Navbar.Brand href="#" className="rounded-circle bg-dark" style={{ width: "40px", height: "40px"}}>
+            KY
+
             {/* <img
               style={{ width: "3rem", height: "3rem" }}
               class="img-fluid rounded-circle"
